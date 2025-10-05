@@ -14,7 +14,7 @@ const SONGS = [
   {title:'Tão Bem', artist:'Lulu Santos', src:'songs/taobem.MP3', cover:'albums/lulusantos.jpg'},
   {title:'É Por Você Que Canto', artist:'Leandro e Leonardo', src:'songs/eporvocequecanto.MP3', cover:'albums/eporvocequecanto.jpeg'},
   {title:'Amor I Love You', artist:'Marisa Monte', src:'songs/amoriloveyou.MP3', cover:'albums/marisamonte.jpg'},
-  {title:'É O Amor', artist:'Zezé diCamargo e Luciano', src:'songs/eoamor.mp3', cover:'albums/zezedicamargoeluciano.jpeg'},
+  {title:'É O Amor', artist:'Zezé diCamargo e Luciano', src:'songs/eoamor.MP3', cover:'albums/zezedicamargoeluciano.jpeg'},
   {title:'Nem Mais Uma Duvida', artist:'Zezé diCamargo e Luciano', src:'songs/nemmaisumaduvida.MP3', cover:'albums/nemmaisumaduvida.jpeg'},
   {title:'Que Sorte A Nossa', artist:'Matheus e Kauan', src:'songs/quesorteanossa.MP3', cover:'albums/quesorteanossa.jpeg'},
   {title:'Sonho De Amor', artist:'Zezé diCamargo e Luciano', src:'songs/sonhodeamor.MP3', cover:'albums/sonhodeamor.jpeg'},
