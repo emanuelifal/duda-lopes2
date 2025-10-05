@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Ela — Minha Homenagem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">
+  <img src="capivara.webp" alt="Meu Avatar" style="width:100%; height:100%; border-radius:50%; object-fit:cover;">
+</div>
+
+      <div>
+        <h1>Para Eduarda — Uma simples homenagem do seu namorado :))</h1>
+        <p class="lead">Um espaço só nosso: com algumas fotos, músicas e mensagens ;) </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="card">
+        <div id="carousel" class="carousel">
+          <div id="slides" class="slides"></div>
+          <div class="controls">
+            <button id="prev" class="btn">‹</button>
+            <button id="next" class="btn">›</button>
+          </div>
+          <div class="dots" id="dots"></div>
+        </div>
+        <div class="thumbs" id="thumbs"></div>
+      </section>
+
+      <aside>
+        <div class="card">
+          <h2>Canções que me fazem lembrar você</h2>
+          <div class="songs-list" id="songs"></div>
+        </div>
+
+        <div class="card">
+          <h2>Mensagens & Cartas</h2>
+          <div class="messages" id="messages"></div>
+        </div>
+      </aside>
+    </main>
+
+
+    <div id="player-bar">
+      <img id="player-cover" src="" alt="Capa do álbum">
+      <div class="meta">
+        <div class="title" id="player-title">Título da música</div>
+        <div class="artist" id="player-artist">Artista</div>
+        <input type="range" id="progress" value="0" min="0" max="100">
+      </div>
+      <div class="controls">
+        <button id="prevSong">⏮</button>
+        <button id="play">▶️</button>
+        <button id="nextSong">⏭</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
